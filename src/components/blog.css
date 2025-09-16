@@ -1,0 +1,121 @@
+/* Container */
+.blog-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.blog-container h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  background-color: #ccc;
+}
+
+/* Form section */
+.blog-form {
+  background: #bf7aa7;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.blog-form label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.blog-form input,
+.blog-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.blog-form input:focus,
+.blog-form textarea:focus {
+  border-color: #007bff;
+}
+
+.blog-form button {
+  margin-top: 1rem;
+  background: #088933;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.blog-form button:hover {
+  background: #06560e;
+}
+
+.blog-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+
+.blog-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.blog-card h3 {
+  margin: 0.8rem;
+  color: #222;
+}
+
+.blog-card p {
+  margin: 0 0.8rem 1rem;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Card buttons */
+.blog-card button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity 0.2s ease;
+}
+
+.blog-card button:hover {
+  background-color: #570b63;
+  opacity: 0.9;
+  color: white ;
+}
+
+.blog-card button:nth-child(1) {
+  background: #ffc107;
+  color: #000;
+}
+
+.blog-card button:nth-child(2) {
+  background: #dc3545;
+  color: #fff;
+}
